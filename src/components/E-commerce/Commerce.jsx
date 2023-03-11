@@ -5,10 +5,10 @@ import './commerce.css'
 
 const Commerce = () => {
   return (
-    <div style={{backgroundImage: `url(${BgImage})`, backgroundSize: 'cover'}} className='px-2 lg:px-16 '  >
+    <div style={{backgroundImage: `url(${BgImage})`, backgroundSize: 'cover'}} className='px-1 lg:px-16 '  >
         <div className='sm:pt-12 lg:pt-12'>
 
-        <h1 className='text-4xl text-left font-extrabold text-green-600 p-3 lg:ml-14 lg:text-5xl'>Commerce</h1>
+        <h1 className='text-4xl text-left font-extrabold text-green-600 p-3 lg:ml-14 lg:text-5xl'>E-Commerce</h1>
         <div style={{height:450}} className='sm:flex lg:flex md:flex'>
 <div className='commerce p-4 text-left'>
     <p>We offer an e-commerce platform that allows

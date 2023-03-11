@@ -1,10 +1,13 @@
 import React from 'react'
+import Architecture from '../Architecture/Architecture';
 import Commerce from '../E-commerce/Commerce';
 import Management from '../Management/Managment'
 
 const Bed = () => {
   return (
     <div>
+        <div><Architecture/></div>
+
         <div className='justify-center px-2 md:px-4 py-1 font-serif lg:flex sm:flex md:flex'>
 
         <div style={{width:350, height:300}} className='text-b font-bold bg-yellow-800 text-slate-50 text-center'>

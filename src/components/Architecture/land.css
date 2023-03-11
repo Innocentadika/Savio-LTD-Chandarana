@@ -1,0 +1,8 @@
+.commerce {
+    width: 350px;
+}
+@media only screen and (min-width: 992px) {
+    .commerce {
+        width: 600px;
+    }
+}
