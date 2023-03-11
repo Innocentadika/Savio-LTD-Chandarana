@@ -22,8 +22,8 @@ function Footer() {
      <div className='  grid lg:cols-2 md:col-span-1 md:cols-2 gap-8 lg:flex  space-x-20 lg:ml-24 m  pt-1'>
             <div className=' pt-1 md:ml-20 lg:ml-20  grid lg:flex-cols-2  mt-1 '>
                 <div>
-                    <p className='text-green-700 text-xl font-extrabold'>Trust us to serve you</p>
-                    <p className='text-xs text-yellow-800 ' >
+                    <p className='text-green-500 text-xl font-extrabold'>Trust us to serve you</p>
+                    <p className='text-xs text-yellow-500 ' >
 SAVIO LANDSCAPING SERVICES
 </p>
                 </div>

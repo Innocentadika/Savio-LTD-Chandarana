@@ -1,5 +1,6 @@
 import React from 'react'
 import Commerce from '../E-commerce/Commerce';
+import Management from '../Management/Managment'
 
 const Bed = () => {
   return (
@@ -28,6 +29,9 @@ purchase)</li>
 </p>
       </div>
    
+    </div>
+    <div>
+        <Management/>
     </div>
 
     <div className='justify-center px-2 md:px-4 py-1 font-serif lg:flex sm:flex md:flex'>
