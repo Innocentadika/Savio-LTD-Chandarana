@@ -1,25 +1,5 @@
 
   
-  .container{
-    width: var(--container-width-lg);
-    margin: 0 auto;
-  }
-  
-  
-  section{
-    padding: 6rem 0;
-  }
-  
-  section h2{
-    text-align: center;
-    margin-bottom: 4rem;
-  
-  }
-  
-  h1,h2,h3,h4,h5{
-    line-height: .9;
-  }
-
 
   a{
     color:var(--color-white) ;
@@ -43,14 +23,14 @@
   
   .btn:hover{
     background: transparent;
-    color:var(--color-white);
-    border-color: var(--color-white );
+    color: aqua;
+    border-color: black;
   
   }
-  .btn-primary{
-    background: var(--color-danger);
+  /* .btn-primary{
+    background: transparent;
     color: var(--color-white);
-  }
+  } */
   
   /*---------POPULAR COURSES---------*/
   
@@ -62,8 +42,8 @@
   
   .courses_container{
     display:flex;
-    grid-template-rows: repeat(3,1fr);
-    gap: 2rem;
+    /* grid-template-rows: repeat(3,1fr); */
+    gap: 1rem;
   
   }
   
@@ -125,7 +105,7 @@
     margin-top: 0;
    }
   .courses_container{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
    
   }
