@@ -8,7 +8,7 @@ import './services.css'
 
 const Services = () => {
   return (
-    <div className='courses py-4'>
+    <div className='courses py-4 px-1'>
         <h2 className='pb-4'>Our Popular Services</h2>
         <div className='lg:flex space-x-3 space-y-2'>
 
