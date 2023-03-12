@@ -21,7 +21,7 @@ const Accounts = () => {
       </form>
       </div>
       <div style={{height: 200}} className='border px-2 bg-green-600 lg:pr-8'>
-      <div className='text-center p-4 sm:px-6 lg:px-60 lg:text-xl'>
+      <div className='text-center p-4 sm:px-6 lg:px-56 lg:text-xl'>
         <button className='border rounded'><Link to='/sign-up'>Sign Up</Link></button>
         </div>
 

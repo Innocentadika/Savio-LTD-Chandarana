@@ -1,0 +1,146 @@
+
+  
+  .container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+  }
+  
+  
+  section{
+    padding: 6rem 0;
+  }
+  
+  section h2{
+    text-align: center;
+    margin-bottom: 4rem;
+  
+  }
+  
+  h1,h2,h3,h4,h5{
+    line-height: .9;
+  }
+
+
+  a{
+    color:var(--color-white) ;
+  }
+  
+  img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .btn{
+    display: inline-block;
+    background: var(--color-white);
+    color: var(--color-black);
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition:var(--transition) ;
+  }
+  
+  .btn:hover{
+    background: transparent;
+    color:var(--color-white);
+    border-color: var(--color-white );
+  
+  }
+  .btn-primary{
+    background: var(--color-danger);
+    color: var(--color-white);
+  }
+  
+  /*---------POPULAR COURSES---------*/
+  
+  
+  .courses{
+    margin-top: 10rem;
+  
+  }
+  
+  .courses_container{
+    display:flex;
+    grid-template-rows: repeat(3,1fr);
+    gap: 2rem;
+  
+  }
+  
+  .courses img{
+  height: 95%;
+  width: 100%;
+  border-radius: 1rem;
+  
+  }
+  
+  .course{
+    background: var(--color-danger);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    border-radius:1rem;
+  }
+  .course:hover{
+    background: transparent;
+    border-color: black;
+  }
+  
+  
+  .course_info{
+    padding: 2rem;
+  }
+  
+  .course_info p{
+    margin: 1.2rem 0 2rem ;
+    font-size: 0.9rem;
+  }
+  
+  /*---------MEDIA QUERIES (TABLETS)---------*/
+  
+  
+  @media screen and (max-width:1024px){
+    
+    .container{
+      width: var(--container-width-md);
+    }
+  
+    h1{
+      font-size: 2.2rem;
+    }
+    h2{
+      font-size: 1.7rem;
+    }
+    h3{
+      font-size: 1.4rem;
+      }
+  
+    h4{
+      font: size 1.2em;
+    }
+  }
+  
+   /*---------POPULAR COURSES SECTION-------------------*/
+   .courses{
+    margin-top: 0;
+   }
+  .courses_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+  }
+  
+  /*---------MQs(phones)-------------------*/
+  @media screen and (max-width: 600px){
+    .container{
+      width: var(--container-width-sm);
+    }
+    
+    /*---------popular courses-----------*/
+    .courses_container{
+      grid-template-columns: 1fr ;
+    }
+  
+  }
+  
+  

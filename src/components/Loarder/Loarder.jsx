@@ -4,6 +4,7 @@ import Accounts from '../Accounts/Accounts'
 import Footer from '../Footer/Footer'
 import More from '../Work/Work.component'
 import Background from '../../Assets/images/background.png'
+import Testimonies from '../Testimonials/Testimonies'
 
 
 const Loarder = () => {
@@ -16,6 +17,7 @@ const Loarder = () => {
         <div>
 
         </div>
+        <Testimonies/>
         <More/>
         <Accounts/>
 <Footer/>
