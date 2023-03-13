@@ -7,6 +7,7 @@ import More from '../Work/Work.component'
 import Background from '../../Assets/images/background.png'
 import Testimonies from '../Testimonials/Testimonies'
 import Services from '../../Assets/Services/Services'
+import Message from '../Message/Message'
 
 
 const Loarder = () => {
@@ -33,6 +34,9 @@ const Loarder = () => {
         </span>
         SAVIO LANDSCAPING VALUES
       </h1>
+    </div>
+    <div>
+      <Message/>
     </div>
 
           <Services/>      

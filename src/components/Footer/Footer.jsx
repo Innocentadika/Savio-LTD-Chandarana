@@ -43,7 +43,7 @@ SAVIO LANDSCAPING SERVICES
                 <div className='lg:mt-24 md:mt-24 lg:mb-2 md:mb-2 '>
                     <h6 className='font-medium text-white '>Contact Information</h6>
                     <ul className='pt-4 text-gray-400'>
-                        <li className='py-2 text-sm'>Industrial-Area</li> 
+                        <li className='py-2 text-sm'>Company-location</li> 
                         
                         <li className='py-2 text-sm'><a href="mailto:info@saviolandscapingservices.co.ke">info@saviolandscapingservices.co.ke</a></li>
                       <li className='py-2 text-sm'> <a href="http://www.saviolandscaping.com/">www.saviolandscaping.com</a></li>
