@@ -37,7 +37,7 @@ const Loarder = () => {
 
           <Services/>      
         <div className='justify-center py-4 px-2'>
-                <p className='text-center text-xl text-green-800 font-extrabold py-3'>What We Believe In</p>
+                <p className='text-center text-2xl text-green-800 font-extrabold py-3'>What We Believe In</p>
                 <span>
 At Savio Landscaping Services, we believe in the transformative power of nature. We believe that by
 enhancing outdoor spaces, we can improve the quality
