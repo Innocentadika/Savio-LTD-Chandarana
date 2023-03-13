@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Background from '../../Assets/images/background.png'
+import Motto from '../Motto/Motto';
+
 
 const Values = () => {
 
   return (
-    <div>
+    <Fragment>
+
+    <div style={{backgroundImage: `url(${Background})`, backgroundSize: 'cover'}} className=' pb-24 '>
     <div className='p-5'>
         <div className='pb-8'>
         <div className='bg-yellow-700 float-left w-28 h-8 mb-'></div>
@@ -77,6 +82,10 @@ We continuously explore new technologies and techniques to improve our services 
     </div>
     <div className='bg-yellow-700 float-right w-24 h-24 mt-3 rounded-l-full rounded-t-full'></div>
     </div>
+
+    <Motto/>
+
+    </Fragment>
 
   )
 }
