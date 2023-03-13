@@ -6,7 +6,7 @@ import './testimonies.css'
 
 const Testimonies = () => {
   return (
-<div style={{ backgroundColor:'maroon', backgroundSize: 'cover'}}>
+<div className='bg-green-800'>
 <h2>Client Testimonials</h2>
 <div className='container testimonials_container mySwiper pb-8 space-x-1'>
       <div className='swiper-wrappe'>

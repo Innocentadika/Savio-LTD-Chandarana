@@ -1,11 +1,13 @@
   
   :root{
-    --color-danger: coral;
+    --color-danger: rgba(152, 115, 4, 0.118);
     --color-danger-variant:rgba(247,88,66,0.4);
+    background-color: ;
   }
     
   h1,h2,h3,h4,h5{
     line-height: .9;
+    
   }
   
   

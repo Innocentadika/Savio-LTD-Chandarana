@@ -7,7 +7,7 @@ const topNav = [
     {
         id: 2, 
         label: 'About',
-        href: '/about'
+        href: '/AboutUs'
     },
     {
         id: 3, 
