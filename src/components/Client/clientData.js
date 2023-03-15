@@ -1,32 +1,34 @@
+import Avator from '../../Assets/images/avator.png'
+
 const clientData = [
     {
-      imgae: '',
+      imgae: Avator,
       title: "Client 1",
-      review: "The designs were lovely.",
+      review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
       
     },
     {
-        imgae: '',
+        imgae: Avator,
         title: "Client 2",
-        review: "The customer approach was excellent.",
+        review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
         
       },
       {
-        imgae: '',
+        imgae: Avator,
         title: "Client 3",
-        review: "Offer room for negotiation.",
+        review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
         
       },
       {
-        imgae: '',
+        imgae: Avator,
         title: "Client 4",
-        review: "Asked for delivery and was delivered perfectly.",
+        review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
         
       },
       {
-        imgae: '',
+        imgae: Avator,
         title: "Client 5",
-        review: "I like the advices provided the customer on best designs",
+        review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
         
       },
       

@@ -1,5 +1,4 @@
 import React from 'react'
-import 'swiper/swiper-bundle.min.css';
 import Avator from '../../Assets/images/avator.png'
 
 import './testimonies.css'
