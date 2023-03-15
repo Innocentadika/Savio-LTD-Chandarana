@@ -12,13 +12,15 @@
     grid-gap: 5px;
     color: rgb(4, 0, 0);
     width: 68rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
 
   }
 /* text decor inside each container */
 .startup label{
     color: rgb(101, 98, 98);
     font-size: medium;
+    font-weight: 600;
+    margin-top: 5px;
     width: 25px;
 
   }
@@ -26,7 +28,7 @@
     padding: 20px;
   }
  .startup h4{
-    font-weight: 500;
+    font-weight: 800;
     margin-top: 5px;
   }
 
@@ -76,6 +78,7 @@
 }
 .startup label{
 font-size: 0.8rem;
+font-weight: 700;
 }
 }
 
@@ -92,8 +95,6 @@ font-size: 0.8rem;
         font-size: small;
         width: 100%;
     }
-    .icon{
-        font-size: small;
-    }
+
 }
     

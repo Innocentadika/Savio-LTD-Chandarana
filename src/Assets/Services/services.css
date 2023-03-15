@@ -1,3 +1,8 @@
+:root{
+  --color-danger: rgba(152, 115, 4, 0.118);
+  --color-danger-variant:rgba(247,88,66,0.4);
+
+}
     img{
     width: 100%;
     display: block;

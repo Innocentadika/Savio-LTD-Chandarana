@@ -2,32 +2,32 @@ import Avator from '../../Assets/images/avator.png'
 
 const clientData = [
     {
-      imgae: Avator,
-      title: "Client 1",
+      image: Avator,
+      name: "John Due",
       review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
       
     },
     {
-        imgae: Avator,
-        title: "Client 2",
+        image: Avator,
+        name: "James Luck",
         review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
         
       },
       {
-        imgae: Avator,
-        title: "Client 3",
+        image: Avator,
+        name: "Ian Qray",
         review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
         
       },
       {
-        imgae: Avator,
-        title: "Client 4",
+        image: Avator,
+        name: "Innocent Allan",
         review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
         
       },
       {
-        imgae: Avator,
-        title: "Client 5",
+        image: Avator,
+        name: "Kylian Rock",
         review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum expedita animi voluptatem natus! Accusantium atque unde nemo architecto. Itaque sapiente ipsam consequatur perferendis quas magnam, excepturi nihil natus velit odit.",
         
       },
