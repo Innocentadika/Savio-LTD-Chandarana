@@ -7,6 +7,7 @@
   margin-bottom: 5rem;
   }
   
+  
   .testimonial{
     padding-top: 2rem;
   }
@@ -58,17 +59,19 @@
   /*---------MEDIA QUERIES (TABLETS)---------*/
   
   
-  @media screen and (max-width:1024px){
+  @media only screen and (min-width: 992px) {
     
-    .container{
-      width: var(--container-width-md);
-    }
+    .testimonial_body{
+      padding: 3rem;
+      margin-left: 9rem;
+      margin-right: 7rem;
+     }
   }
   
   /*---------MQs(phones)-------------------*/
   @media screen and (max-width: 600px){
     .container{
-      width: var(--container-width-sm);
+      width: 6rem;
     }
      .testimonial_body{
       padding: 1.2rem;

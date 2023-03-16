@@ -1,0 +1,24 @@
+.container {
+    background-color: transparent;
+}
+.container .box{
+    margin-left: 0.5rem;
+    border-radius: 2.8px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0.2rem;
+    padding: 10px;
+    height: 15rem;
+    background: rgb(249, 247, 247);
+    flex-wrap: wrap;
+}
+.container .box:hover{
+    box-shadow: 0 0 20px 0 rgb(80, 237, 18);
+}
+.container .grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.container .grow:hover { 
+    transform: scale(1.1); 
+    }

@@ -13,7 +13,7 @@ const Testimonies = () => {
         <Slide>
          {clientData.map((clientData, index)=> (
             <div  key={index}>
-              <div className='container testimonials_container mySwiper pb-8 space-x-1'>
+              <div className='container testimonials_container pb-8 space-x-1'>
       <div className='swiper-wrappe'>
 
       <article className='testimonial swiper-slide'>

@@ -13,7 +13,7 @@ function Footer() {
 
 <div style={{backgroundColor: '#384A52'}}>
     
-  <div className='footer m-1 '>
+  <div className='footer'>
          <div className=' ml-4 text-center ml-88 justify-end mr-36 mt-4 gap-20 flex sm:flex items-center 2'>
             <h6 className='font-semibold text-pink-600  lg:mt-4 md:mt-4 lg:mb-2 md:mb-2'>Subscribe to our Newsletter<span className='text-lg'>&#128075;</span></h6>
             <WhatsAppButton />
