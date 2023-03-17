@@ -3,6 +3,7 @@ import Navbar from '../../Assets/navbar/Navbar';
 import Values from '../Values/Values';
 import Footer from '../Footer/Footer'
 import Flowerback from '../../Assets/images/flower-back.png'
+import Projects from '../../Assets/Projects/Project'
 
 
 const AboutUs = () => {
@@ -12,6 +13,7 @@ const AboutUs = () => {
 
 
             <Navbar/>
+            <Projects/>
             
     <div>
       <div className=' p-5 lg:p-16 sm:p-10 text-slate-200'>
