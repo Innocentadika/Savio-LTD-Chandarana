@@ -20,9 +20,9 @@ function Projects() {
 
   return (
     
-    <div className=' bg-black text-white font-extrabold p-5 text-lg '>
+    <div className='  text-white font-extrabold p-5 text-lg '>
 
-<h1 className='text-3xl'>Our Results</h1>
+<h1 className='text-3xl text-green-400'>Our Results</h1>
 <p className=' font-serif text-sm py-2'>HOW ABOUT SOME FUN FACTS ABOUT OUR COMPANY</p>
 
 
