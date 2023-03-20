@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div className='courses py-4 px-1'>
         <h2 className='pb-4'>Our Popular Services</h2>
-        <div className='lg:flex space-x-3 space-y-2'>
+        <div className='lg:flex lg:space-x-3 space-y-2'>
 
         <div className='sm:flex md:flex space-y-2 lg:space-x-3'>
   <div className="container courses_container">
